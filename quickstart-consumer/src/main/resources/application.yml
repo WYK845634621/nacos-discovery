@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  application:
+    name: quickstart-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.222.21:8848,192.168.222.21:8849,192.168.222.21:8850
