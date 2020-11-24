@@ -7,3 +7,5 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.222.21:8848,192.168.222.21:8849,192.168.222.21:8850
+        username: nacos
+        password: nacos

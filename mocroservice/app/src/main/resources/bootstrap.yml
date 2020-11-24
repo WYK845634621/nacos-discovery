@@ -1,0 +1,20 @@
+server:
+  port: 56020 #启动端口 命令行注入
+  servlet:
+    context-path: /app
+
+spring:
+  application:
+    name: app
+  main:
+    allow-bean-definition-overriding: true # Spring Boot 2.1 需要设定
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.222.21:8848
+      config:
+        server-addr: 192.168.222.21:8848 # 配置中心地址
+        file-extension: yaml
+dubbo:
+  cloud:
+    subscribed-services: service1

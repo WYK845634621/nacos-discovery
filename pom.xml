@@ -8,6 +8,10 @@
     <modules>
         <module>quickstart-consumer</module>
         <module>quickstart-provider</module>
+        <module>mocroservice</module>
+        <module>app</module>
+        <module>1-server</module>
+        <module>1-server</module>
     </modules>
     <packaging>pom</packaging>
     <name>nacos-discovery</name>
