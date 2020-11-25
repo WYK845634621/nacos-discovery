@@ -29,3 +29,5 @@ dubbo:
     check: false
   cloud:
     subscribed-services: null
+
+#nacos开启权限设置会报错  所以要关闭

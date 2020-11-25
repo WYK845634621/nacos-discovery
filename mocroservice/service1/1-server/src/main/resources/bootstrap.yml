@@ -30,3 +30,5 @@ dubbo:
     check: false  #启动时就否检查依赖的服务
   cloud:
     subscribed-services: service2
+
+#nacos开启权限设置会报错  所以要关闭
