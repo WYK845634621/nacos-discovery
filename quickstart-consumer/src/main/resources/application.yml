@@ -6,6 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.222.21:8848,192.168.222.21:8849,192.168.222.21:8850
+#        server-addr: 192.168.222.21:8848,192.168.222.22:8848,192.168.222.23:8848
+        server-addr: 192.168.222.21:8848
         username: nacos
         password: nacos

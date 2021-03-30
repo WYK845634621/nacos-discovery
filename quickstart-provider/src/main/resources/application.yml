@@ -1,11 +1,10 @@
 server:
-  port: ${port:10090}
+  port: ${port:10070}
 spring:
   application:
     name: quickstart-provider
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.222.21:8848,192.168.222.21:8849,192.168.222.21:8850
-        username: nacos
-        password: nacos
+        server-addr: 192.168.222.21:8848
+#        server-addr: 192.168.222.21:8848,192.168.222.22:8848,192.168.222.23:8848

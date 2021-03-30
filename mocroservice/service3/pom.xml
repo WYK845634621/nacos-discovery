@@ -3,20 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>nacos-discovery</artifactId>
+        <artifactId>mocroservice</artifactId>
         <groupId>com.yikai</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mocroservice</artifactId>
+    <artifactId>service3</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>app</module>
-        <module>service1</module>
-        <module>service2</module>
-        <module>gateway</module>
-        <module>service3</module>
+        <module>3-api</module>
+        <module>3-server</module>
     </modules>
 
 

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: service3
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.222.21:8848
+      config:
+        enabled: false
+dubbo:
+  scan:
+    base-packages: com.yikai.service3.server.impl
+  protocol:
+    name: dubbo
+    port: ${dubbo_port:20893}     #-1表示随机
+  registry:
+    address: nacos://192.168.222.21:8848
+  application:
+    qos-enable: false
+  consumer:
+    check: false
+  cloud:
+    subscribed-services: null
+server:
+  port: 9993

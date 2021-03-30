@@ -17,4 +17,4 @@ spring:
         file-extension: yaml
 dubbo:
   cloud:
-    subscribed-services: service1
+    subscribed-services: service1,service3
